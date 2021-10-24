@@ -35,3 +35,7 @@ Most of the system/project names are self-explained and are consistent with the 
 * SS-L -> LVM
 * SS-M -> Trimesh
 * 100AS -> 50AS
+
+## Supplementary
+
+The `supplementary.pdf` contains the detailed median and IQR of weighted score for all 604 cases of comparisons.
