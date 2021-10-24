@@ -21,7 +21,7 @@ The [`library`](https://github.com/ideas-labo/pareto-vs-weight-for-sbse/tree/mai
 
 ## Dataset
 
-The experiment data reported in the work can be found at: [https://doi.org/10.5281/zenodo.5594937](https://doi.org/10.5281/zenodo.5594937). The naming rule follow as `budget type`-`problem name`, e.g., `eval-sct` means the SCT problem using evaluation number as the search budget. In each of the above directory, the number, e.g., `0.1-0.9`, means the weight-vector under which the data is for the weighted search. The data for Pareto search is stored in the directories named by the corresponding system/project. 
+The experiment data reported in the work can be found at: [https://doi.org/10.5281/zenodo.5594937](https://doi.org/10.5281/zenodo.5594937). The naming rule follow as `[budget type]`-`[problem name]`, e.g., `eval-sct` means the SCT problem using evaluation number as the search budget. In each of the above directory, the number, e.g., `0.1-0.9`, means the weight-vector under which the data is for the weighted search. The data for Pareto search is stored in the directories named by the corresponding system/project. 
 
 Most of the system/project names are self-explained and are consistent with the paper, except the following:
 
