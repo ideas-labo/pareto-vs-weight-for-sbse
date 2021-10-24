@@ -15,6 +15,23 @@ In presence of multiple objectives to be optimized in Search-Based Software Engi
 
 * Java 1.6+
 
-The [`code`](https://github.com/ideas-labo/pareto-vs-weight-for-sbse/tree/main/code) folder contains all the information about the source code. The program for NRP and SCT are placed in the same folder while that for WSC is placed into a separated one. To run the code, find the [`AutoRun.java`] in the corresponding folder and editing some of the global parameter in the source code to run the relevant experiments.
+The [`code`](https://github.com/ideas-labo/pareto-vs-weight-for-sbse/tree/main/code) folder contains all the information about the source code. The program for NRP and SCT are placed in the same folder while that for WSC is placed into a separated one. To run the code, find the `AutoRun.java` in the corresponding folder and editing some of the global parameter in the source code to run the relevant experiments.
 
 The [`library`](https://github.com/ideas-labo/pareto-vs-weight-for-sbse/tree/main/library) folder includes all the necessary external libraries for running the code, please include them into the build path when compiling. 
+
+## Dataset
+
+The experiment data reported in the work can be found at: [https://doi.org/10.5281/zenodo.5594937](https://doi.org/10.5281/zenodo.5594937). The naming rule follow as `budget type`-`problem name`, e.g., `eval-sct` means the SCT problem using evaluation number as the search budget. In each of the above directory, the number, e.g., `0.1-0.9`, means the weight-vector under which the data is for the weighted search. The data for Pareto search is stored in the directories named by the corresponding system/project. 
+
+Most of the system/project names are self-explained and are consistent with the paper, except the following:
+
+
+* SS-A -> WC-C1-3D
+* SS-C -> WC-C3-3D
+* SS-E -> WC-C4-3D
+* SS-I -> WC-C5-5D
+* SS-J -> RS-C3-6D
+* SS-K -> WC-C1-6D
+* SS-L -> LVM
+* SS-M -> Trimesh
+* 100AS -> 50AS
