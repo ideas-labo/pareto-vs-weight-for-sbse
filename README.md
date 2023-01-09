@@ -2,7 +2,7 @@
 
 This repository contains the data and code for the following paper:
 
-> Tao Chen and Miqing Li. 2021. The Weights can be Harmful: Pareto Search versus Weighted Search in Multi-Objective Search-Based Software Engineering. In submission.
+> Tao Chen and Miqing Li. 2022. The Weights can be Harmful: Pareto Search versus Weighted Search in Multi-Objective Search-Based Software Engineering. ACM Transactions on Software Engineering and Methodology, doi: 10.1145/3514233.
 
 ## Introduction
 
