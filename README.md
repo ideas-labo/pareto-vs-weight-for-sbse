@@ -4,6 +4,20 @@ This repository contains the data and code for the following paper:
 
 > Tao Chen and Miqing Li. 2022. The Weights can be Harmful: Pareto Search versus Weighted Search in Multi-Objective Search-Based Software Engineering. ACM Transactions on Software Engineering and Methodology, doi: 10.1145/3514233.
 
+> @article{DBLP:journals/tosem/ChenL23,
+  author       = {Tao Chen and
+                  Miqing Li},
+  title        = {The Weights Can Be Harmful: Pareto Search versus Weighted Search in
+                  Multi-objective Search-based Software Engineering},
+  journal      = {{ACM} Trans. Softw. Eng. Methodol.},
+  volume       = {32},
+  number       = {1},
+  pages        = {5:1--5:40},
+  year         = {2023},
+  url          = {https://doi.org/10.1145/3514233},
+  doi          = {10.1145/3514233}
+}
+
 ## Introduction
 
 In presence of multiple objectives to be optimized in Search-Based Software Engineering (SBSE), Pareto search has been commonly adopted. It searches for a good approximation of the problem's Pareto optimal solutions, from which the stakeholders choose the most preferred solution according to their preferences. However, when clear preferences of the stakeholders (e.g., a set of weights which reflect relative importance between objectives) are available prior to the search, weighted search is believed to be the first choice since it simplifies the search via converting the original multi-objective problem into a single-objective one and enable the search to focus on what only the stakeholders are interested in. This paper questions such a *"weighted search first"* belief. We show that the weights can, in fact, be harmful to the search process even in the presence of clear preferences. Specifically, we conduct a large scale empirical study which consists of 38 systems/projects from three representative SBSE problems, together with two types of search budget and nine sets of weights, leading to 604 cases of comparisons. Our key finding is that weighted search reaches a certain level of solution quality by consuming relatively less resources at the early stage of the search; however, Pareto search is at the majority of the time (up to 77% of the cases) significantly better than its weighted counterpart, as long as we allow a sufficient, but not unrealistic search budget. This is a beneficial result, as it discovers a potentially new "rule-of-thumb" for the SBSE community: even when clear preferences are available, it is recommended to always consider Pareto search by default for multi-objective SBSE problems provided that solution quality is more important. Weighted search, in contrast, should only be preferred when the resource/search budget is limited, especially for expensive SBSE problems. This, together with other findings and actionable suggestions in the paper, allows us to codify pragmatic and comprehensive guidance on choosing weighted and Pareto search for SBSE under the circumstance that clear preferences are available.
