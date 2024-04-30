@@ -4,7 +4,8 @@ This repository contains the data and code for the following paper:
 
 > Tao Chen and Miqing Li. 2022. The Weights can be Harmful: Pareto Search versus Weighted Search in Multi-Objective Search-Based Software Engineering. ACM Transactions on Software Engineering and Methodology, doi: 10.1145/3514233.
 
-> @article{DBLP:journals/tosem/ChenL23,
+```
+@article{journals/tosem/ChenL23,
   author       = {Tao Chen and
                   Miqing Li},
   title        = {The Weights Can Be Harmful: Pareto Search versus Weighted Search in
@@ -17,6 +18,8 @@ This repository contains the data and code for the following paper:
   url          = {https://doi.org/10.1145/3514233},
   doi          = {10.1145/3514233}
 }
+```
+
 
 ## Introduction
 
